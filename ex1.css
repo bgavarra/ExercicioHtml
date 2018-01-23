@@ -1,0 +1,48 @@
+html, body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+#table{
+  border: 10px outset rgb(244, 196, 65);
+}
+
+.table_header td, .table_header th {
+
+  border-bottom: 3px outset black;
+  border-top:  3px outset red;
+  border-left:  3px outset blue;
+  border-right: 3px outset green;
+}
+
+.header {
+  color: rgb(244, 196, 65);
+  font-family: 'Kavivanar', cursive;
+}
+
+.corpinho{
+  background-color: gray;
+  font-family: 'Kavivanar', cursive;
+}
+
+.bloco{
+  margin: auto;
+
+  background: #fff;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+#bloco{
+  position: absolute;
+  background-color: red;
+
+  left: 50vw;
+  top: 50vh;
+
+  width: 50vw;
+  height: 50vh;
+
+  margin-left: -25vw;
+  margin-top: -25vh;
+}
